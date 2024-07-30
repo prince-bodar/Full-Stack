@@ -1,0 +1,47 @@
+/* img 1 cloud */
+.img1 img{
+    animation: move1 8s linear infinite;
+}
+@keyframes move1{
+    from{translate: 0px;}
+    to{translate: 1300px;}
+}
+
+/* img 2 cloud */
+.img2  img{
+    position: absolute;
+    top:30px;
+    animation: move2 10s  linear infinite forwards;
+}
+@keyframes move2{
+    from{translate: 1100px;}
+    to{translate: -400px;}
+}
+
+/* img 3 cloud */
+.img3 img{
+    position: absolute;
+    animation: move3 10s  0.1ms linear infinite forwards;
+}
+@keyframes move3{
+    from{translate:-300px;}
+    to{translate: 1300px;}
+}
+
+
+/* img sun  */
+.sun img{
+    position: absolute;
+    left: 450px;
+    top: 250px;
+    z-index: -10;
+    animation: move4 8s  0.001ms infinite linear;
+}
+@keyframes move4 {
+    from{
+        transform: translateY(120px);
+    }
+    to{
+        transform: translateY(-500px);
+    }
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>layout</title>
+  </head>
+  <body>
+    <table
+      style="
+        border: 8px;
+        border-style: groove;
+        text-align: center;
+        height: 300px;
+        width: 900px;
+      "
+    >
+      <tr>
+        <th rowspan="2" style="background-color: rgba(51, 255, 0, 0.698)">
+          header1
+        </th>
+        <th colspan="4" style="background-color: rgba(89, 0, 40)">header2</th>
+      </tr>
+      <tr>
+        <td colspan="4" style="background-color: rgba(249, 0, 40)">nav 2</td>
+      </tr>
+      <tr>
+        <td rowspan="2" style="background-color: rgba(89, 0, 240)">nav 1</td>
+        <td rowspan="2" colspan="3" style="background-color: rgba(200, 200, 1)">
+          artical
+        </td>
+        <td rowspan="2" style="background-color: rgba(137, 20, 200)">Aside</td>
+      </tr>
+      <tr></tr>
+      <tr>
+        <td colspan="6" style="background-color: rgba(89, 240, 140)">footer</td>
+      </tr>
+    </table>
+
+    <form>
+      <fieldset>
+
+        <form>  <fieldset>
+            <legend><mark>header</mark></legend>
+            <input placeholder="logo" />
+            <input placeholder="search bar" />
+          </fieldset></form>
+
+      </fieldset>
+    </form>
+    
+  </body>
+</html>

@@ -1,0 +1,56 @@
+.run{
+    height: 50px;
+    width: 50px;
+    background-color:#000;
+    animation:move 15s linear;
+}
+
+@keyframes move{
+    0%{
+        transform: translate(0px);
+      }
+
+    9%{
+        transform: translate(200px);
+       }
+
+    18%{
+        transform: translate(200px , 200px);
+       }
+
+    27%{
+        transform: translate(600px , 200px);
+       }
+
+    36%{
+        transform: translate(600px , 200px);
+       }
+
+    45%{
+        transform: translate(600px , 400px);
+       }
+
+    54%{
+        transform: translate(0px , 400px);
+       }
+
+    63%{
+        transform: translate(0px , 200px);
+       }
+
+    72%{
+        transform: translate(200px , 200px);
+       }
+    
+    81%{
+        transform: translate(200px , 100px);
+      }
+
+    90%{
+        transform: translate(0px,100px);
+        }
+
+    100%{
+          transform: translate(0px,0px);
+        }
+}

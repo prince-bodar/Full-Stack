@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nested Table</title>
+    <style>
+        table,th,td{
+            border: 2px;
+            border-collapse: separate;
+            border-style: groove;
+        }
+    </style>
+</head>
+<body>
+    <table cellspcing="2px">
+        <caption>lan's time table</caption>
+        <tr>
+            <th></th>
+            <th></th>
+            <th colspan="3">morning</th>
+            <th >lunch</th>
+            <th colspan="4">afternoon</th>
+            <th colspan="3">evening</th>
+        </tr>
+        <tr>
+                <th></th>
+                <th></th>
+                <th>9-10am</th>
+                <th>10-11am</th>
+                <th>11-12am</th>
+                <th>1-2pm</th>
+                <th>2-3pm</th>
+                <th>3-4pm</th> 
+                <th>4-5pm</th>
+                <th>5-6pm</th>
+                <th>6-7pm</th>
+                <th>7-8pm</th>
+                <th>8-9pm</th>
+        </tr>
+        <tr>
+            <td rowspan="2">work</td>
+            <td>monday</td>
+            <td colspan="3">devlopement metting</td>
+            <td rowspan="6"></td>
+            <td colspan="3">client metting</td>
+            <td>commute</td>
+            <td colspan="3">free</td>
+        </tr>
+        <tr>
+            <td>Tuesday</td>
+            <td colspan="3">in office</td>
+            <td colspan="7">in office</td>
+
+        </tr>
+        <tr>
+            <td rowspan="2">Lecture</td>
+            <td>wendesday</td>
+            <td colspan="3">csc 205</td>
+            <td colspan="7">preparation</td>
+        </tr>
+        <tr>
+            <td>Thursday</td>
+            <td colspan="3">MAM 200</td>
+            <td colspan="3" >MAM 200 for tutorials</td>
+            <td colspan="5" >free</td>
+        </tr>
+        <tr>
+            <td>Reaserch</td>
+            <td>Friday</td>
+            <td colspan="3">Reaserch</td>
+            <td colspan="7">Reaserch</td>
+        </tr>
+    </table>
+    <br><br><br>
+    <table>
+        <caption>TIME TABLE</caption>
+        <tr>
+                <th rowspan="7">Hours</th>
+                <th>Mon</th>
+                <th>Tue</th>
+                <th>Wed</th>
+                <th>Thu</th>
+                <th>Fri</th>
+        </tr>
+        <tr>
+                <td>science</td>
+                <td>maths</td>
+                <td>science</td>
+                <td>maths</td>
+                <td>arts</td>
+        </tr>
+        <tr>
+            <td>social</td>
+            <td>history</td>
+            <td>english</td>
+            <td>maths</td>
+            <td>sports</td>
+        </tr>
+        <tr>
+            <th colspan="5">Lunch</th>
+        </tr>
+        <tr>
+            <tr>
+                <td>science</td>
+                <td>maths</td>
+                <td>science</td>
+                <td>maths</td>
+                <td rowspan="2">Project</td>
+            </tr>
+            <tr>
+                <td>social</td>
+                <td>history</td>
+                <td>english</td>
+                <td>maths</td>
+            </tr>
+        </tr>
+    </table>
+    <br><br><br>
+            <table style="border: 8px; border-color: rgb(5, 121, 96);  border-style: groove;">
+                <caption>Advanced HTML Tag for table</caption>      
+                <tr>
+                    <th colspan="3"> Purchase order</th>
+                    <th>Tutorialbrain - 10th Oct 2020</th>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        Vendor:</br>
+                        ABC XYZ ltd.<br>
+                        DUMMY STREET<br>
+                        BUILDING 123<br>
+                        HAZARIBAGH, JHARKHAND, 825301</td>
+                    <td colspan="2">
+                        SHIP TO:<br>
+                        MS DHONI<br>
+                        WILSON GARDEN<br>
+                        SOUTHEAST BLOCK, RANCHI - 834001 </td>
+                </tr>
+                <tr>
+                    <th>Qty.</th>
+                    <th>Item Code.</th>
+                    <th>Description</th>
+                    <th>Unit Price</th>
+                </tr>
+                <tr>
+                    <td>100</td>
+                    <td>IABCDE</td>
+                    <td>Pencils</td>
+                    <td>20.00</td>
+                </tr>
+                <tr>
+                    <td>1000</td>
+                    <td>IN877</td>
+                    <td>Notebooks</td>
+                    <td>100.00</td>
+                </tr>
+                <tr>
+                    <td>500</td>
+                    <td>IP8675</td>
+                    <td>Pens</td>
+                    <td>70.00</td>
+                </tr>
+                <tr>
+                    <th colspan="3">Subtotal</th>
+                    <td>190.00</td>
+                </tr>
+                <tr>
+                    <th colspan="2">GST</th>
+                    <td>5%</td>
+                    <td>9.50</td>
+                </tr>
+                <tr>
+                    <th colspan="3">Grand Total</th>
+                    <td>$199.50</td>
+                </tr>
+            </table>
+     
+             <br><br><br>
+             <table  style="border: 10px; border-color: rgb(5, 121, 96);  border-style: double;">
+                
+                <caption>Advanced HTML Tag for table</caption>      
+                <tr>
+                    <th colspan="3"> Invoice #123456789</th>
+                    <th>14 January 2025</th>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        PAY:</br>
+                        ACME BILLING CO<br>
+                        123 MAIN ST.<br>
+                        CITYVILA,NA12345<br>
+                    </td>
+                    <td colspan="2">
+                        COUSTOMER:<br>
+                        JOHN SMITH<br>
+                        321 WILLOW WAY<br>
+                        SOUTHEAST NORTHESTERSHIRE</td>
+                </tr>
+                <tr>
+                    <th>Name/description</th>
+                    <th>Qty.</th>
+                    <th>@</th>
+                    <th>Cost</th>
+                </tr>
+                <tr>
+                    <td>Pepereclips</td>
+                    <td>1000</td>
+                    <td>0.01</td>
+                    <td>10.00</td>
+                </tr>
+                <tr>
+                    <td>Staples(box)</td>
+                    <td>100</td>
+                    <td>1.00</td>
+                    <td>100.00</td>
+                </tr>
+               
+                <tr>
+                    <th colspan="3">Subtotal</th>
+                    <td>110.00</td>
+                </tr>
+                <tr>
+                    <th colspan="2">TAX</th>
+                    <td>8%</td>
+                    <td>8.80</td>
+                </tr>
+                <tr>
+                    <th colspan="3">Grand Total</th>
+                    <td>$118.80</td>
+                </tr>
+            </table>
+            <br><br><br>
+        <table>
+            <caption>NESTED TABLE</caption>
+            <tr>
+                <thead>
+                  <th>headear column 1</th>
+                  <th>headear column 2</th>
+                  <th>headear column 3</th>
+                  <th>headear column 4</th>
+                </thead>
+            </tr>
+            <tr>
+                <td>row-2 items-1</td>
+                <td>row-2 items-2</td>
+                <td rowspan="2">row-2 nested table 1
+                      <table>
+                        <tr>
+                            <th>row-1 header </th>
+                            <td>item 1</td>
+                        </tr>
+                        <tr>
+                            <th>row-2 header </th>
+                            <td>item 2</td>
+                        </tr> 
+                        <tr>
+                            <th>row-3 header </th>
+                            <td>item 3</td>
+                        </tr>
+                      </table>
+                </td>
+                <td> row 2 <br> second line</td>
+            </tr>
+            <tr>
+                <td>NESTED TABLE 3 <br><br>
+                    <table>
+                        <tr>
+                            <th>row header 1</th>
+                            <td>item 1</td>
+                        </tr>
+                        <tr>
+                            <th>row header 2</th>
+                            <td>item 2</td>
+                        </tr>
+                    </table>
+                </td>
+                <td>row 3 item 2</td>
+                <td rowspan="2">row 3 item 3</td>
+            </tr>
+            <tr>
+                <td>row 4 item 1</td>
+                <td>row 4 item 2</td>
+                <td>row 4 item 3</td>
+            </tr>
+            <tr>
+                <td colspan="4">last row of out of table </td>
+            </tr>
+        </table>
+
+
+        <br><br><br>
+        <table  style="border: 10px; border-color: rgb(5, 121, 96);  border-style:ridge; background-color: rgb(50, 249, 203);">
+           
+           <caption>Advanced HTML Tag for table</caption>      
+           <tr>
+               <th colspan="3"> Invoice #123456789</th>
+               <th>14 January 2025</th>
+           </tr>
+           <tr>
+               <td colspan="2">
+                   PAY:</br>
+                   ACME BILLING CO<br>
+                   123 MAIN ST.<br>
+                   CITYVILA,NA12345<br>
+               </td>
+               <td colspan="2">
+                   COUSTOMER:<br>
+                   JOHN SMITH<br>
+                   321 WILLOW WAY<br>
+                   SOUTHEAST NORTHESTERSHIRE</td>
+           </tr>
+           <tr>
+               <td>Name/description<br><br>
+                   Pepereclips<br><br>
+                   Staples(box)<br><br>
+               </td>
+               <td>Qty<br><br>
+                   2000<br><br>
+                   200<br><br>
+                </td>
+           
+               <td>@<br><br>
+                  0.2<br><br>
+                  2.00<br><br>
+                  100.00</td>
+               <td>
+                  cost<br><br>
+                  20.00<br><br>
+                  200.00<br><br>
+              </td>
+           </tr>
+          
+           <tr>
+               <td colspan="3">subtotal</td>
+               <td>220.00</td>
+           </tr>
+           <tr>
+               <td colspan="2">TAX</td>
+               <td>9%</td>
+               <td>$19.80</td>
+           </tr>
+           <tr>
+            <td colspan="3">Grand total</td>
+            <td colspan="2">239.80</td>
+           </tr>
+       </table>
+
+</body>
+</html>

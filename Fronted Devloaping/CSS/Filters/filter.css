@@ -1,0 +1,19 @@
+.img-1{
+    border-radius: 20%;
+    border: 30px groove gray;
+    filter:opacity(0.9);
+    background-color:blueviolet;
+    place-items: center;
+    display: grid;
+}
+body{
+    place-items: center;
+    display: grid;
+    background-color: #000;
+}
+.img-2{
+    filter: invert();
+}
+.img-3{
+    filter:saturate(4);
+}

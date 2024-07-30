@@ -1,0 +1,96 @@
+h1{
+   /* width: 1000px; */
+    font-size: 50px;
+    background-color:none;  
+    text-shadow: 0.3px 0.3px 1.5px black;
+    
+}
+body{
+    background-color: #ffffff;
+    place-items: center;
+    display: grid;
+}
+
+ .borderproperties{
+  width: 50%;
+}
+.container-2{
+     font-size: 1rem;
+    margin-top: 55px;
+    margin-left: 6px;
+    margin-bottom: 10px; 
+    /* margin: auto; */
+}
+
+.hero-section{
+    font-size: x-large;
+    word-spacing: 3px;
+    letter-spacing: -1px;
+    line-height: 40px;
+    font-size: 25px;
+    border-style: solid ;
+    border-top-width: 10px;
+    border-bottom-width: 10px;
+    border-right-width: 5px;
+    border-left-width: 5px;
+    border-color: darkblue;
+    background-image: linear-gradient(
+        to left bottom,
+        rgba(35, 118, 235, 0.907),
+        rgb(52, 109, 167),
+        rgb(103, 157, 222),
+        rgb(38, 103, 183),
+        rgb(62, 182, 212),
+        rgb(33, 127, 158),
+        rgba(35, 118, 235, 0.907),
+        rgba(83, 191, 210, 0.87),
+        rgb(75, 140, 204),
+        rgb(103, 157, 222),
+        rgb(68, 132, 210),
+        rgb(62, 182, 212),
+        rgb(45, 139, 170),
+        rgba(35, 118, 235, 0.907)
+       );
+
+       padding: 20px 40px 20px 40px;
+       
+} 
+div{
+    height: 400px;
+    width: 450px;
+    background-color: deepskyblue;
+   border-radius:50%;
+   background-image: linear-gradient(
+    to left bottom,
+    #51138ed6,
+    rgb(129, 52, 167),
+    rgb(113, 103, 222),
+    rgb(38, 118, 183),
+    rgb(62, 177, 212),
+    rgb(33, 158, 144),
+    rgba(35, 235, 222, 0.907)
+   );
+}
+.container{
+    margin-top: 40px;
+    margin-left: 170px;
+    margin-right: 20px;
+    /* margin: auto; */
+}
+footer{
+    height: 400px;
+    width: 450px;
+    background-color: deepskyblue;
+    border-radius:100% 0% 100% 0% / 100% 0% 100% 0% ;
+    background-image: linear-gradient(
+        to left bottom,
+        #51138ed6,
+        rgb(75, 15, 104),
+        rgb(14, 8, 81),
+        rgb(13, 67, 112),
+        rgb(3, 48, 62),
+        rgb(0, 37, 33),
+        rgba(8, 8, 97),
+       );
+
+}

@@ -1,0 +1,73 @@
+
+.color{
+    color:#f5f900;
+    color:#af2323 !important;
+    color:#1ab8cd;
+    font-size: 100px;
+    text-align: right;
+    border: 10px groove #ccc;
+    border-bottom: 20px double #8a2be2;
+    border-right: 10px groove #1d0038;
+    border-top: 10px dashed #031743;
+    border-left: 10px double #8a2be2;
+}
+body{
+    background-color:#fff;
+    background-image: url('../images/pixcap.png');
+    background-size:600px ;
+    background-repeat: no-repeat;
+    background-position:center ;
+    background-clip: border-box;
+    background-attachment: fixed;
+    place-items: center;
+    display: grid;
+}
+.background{
+    height: 500px;
+    width: 500px;
+    background-image:url('../images/Prince.png');
+    background-position: right;
+    background-size: 400px;
+    background-repeat: no-repeat;
+    margin-top: 100px;
+    margin-left:-200px;
+
+}
+
+.borders{
+    height: 400px;
+    width: 450px;
+    /* background-color: deepskyblue; */
+   border-radius:50%;
+   background-image: linear-gradient(
+    to left bottom,
+    #51138ed6,
+    rgb(129, 52, 167),
+    rgb(113, 103, 222),
+    rgb(38, 118, 183),
+    rgb(62, 177, 212),
+    rgb(33, 158, 144),
+    rgba(35, 235, 222, 0.907),
+    rgb(129, 52, 167),
+    rgb(113, 103, 222),
+    rgb(38, 118, 183),
+    rgb(62, 177, 212)
+   );
+}
+
+.opacity{
+    font-weight: 700;
+    font-size: 100px;
+    filter: opacity(0.7);
+}
+.font-family p{
+    font-family: 'Protest Riot', sans-serif;
+    font-family: monospace;
+    font-size: 30px;
+    font-style: normal;
+    font-variant: small-caps;
+    font-weight: bold;
+    text-align: center;
+    word-spacing: 4px;
+    letter-spacing: 1px;
+}

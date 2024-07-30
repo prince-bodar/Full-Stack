@@ -1,0 +1,24 @@
+body{
+    background-color: #0D2328;
+    display: grid;
+    place-items: center;
+    position: relative;
+}
+
+.f{
+    border-top-left-radius: 100%;
+    border-top-right-radius: 100%;
+    height: 250px;
+    width: 300px;
+    background-color: #9ED7F8;
+    position: absolute;
+    top: 50px;
+}
+.s{
+    height: 150px;
+    width: 30px;
+    position: absolute;
+    top: 300px;
+    background-color: #9ED7F8;
+
+}

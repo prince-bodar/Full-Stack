@@ -1,0 +1,37 @@
+.container-1{
+    float: left;
+    padding: 10px;
+    border-style:groove;
+    text-shadow: 7px 4px 6px rgb(86, 41, 17);
+    padding: 20px;
+    border: 2px solid black;
+}
+
+#table2 {
+background-color: chocolate;
+  font-weight: 600;
+}
+#table3 {
+  background-image: linear-gradient(
+    to right bottom,
+    #93befe,
+    #128ad0,
+    #008793,
+    #00bf72,
+    #a8eb12
+  );
+}
+#table4{
+    background-image: linear-gradient(
+        to right bottom,
+        rgba(35, 118, 235, 0.907),
+        rgba(35, 118, 235, 0.907),
+        rgba(83, 191, 210, 0.87),
+        rgb(103, 157, 222),
+        rgb(38, 103, 183),
+        rgb(62, 182, 212),
+        rgb(33, 127, 158),
+        rgba(35, 118, 235, 0.907),
+        rgba(83, 191, 210, 0.87)
+      );
+}

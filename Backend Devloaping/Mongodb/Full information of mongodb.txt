@@ -1,0 +1,223 @@
+1  -> mongosh                                            => use for connect shell.
+
+                CREATING AND DELETING DATABASES  
+
+2  -> show dbs                                           => show all databases.                                                                                        
+3  -> use <database name>                                => this is create database  "NOTICE" => with out any collection your database is not show.
+4  -> show collections                                   => this is use for showing all collections.                           
+5  -> db.createCollection("collection_Name")             => this is use for create collection.                                                                          
+6  -> db.collection_name.drop()                          => this is use for delete collection.                                                              
+7  -> db.dropDatabase()                                  => this is use for delete database.  
+
+
+                INSERT OPARATION                                                                                     
+  
+8  -> db.create_collection_name.insertOne({"Name":"Prince",age:19})     OR insert()          => this is use for create collection and insert Any one field.
+
+9  -> db.create_collection_name.insertMany({"Name":"Prince",age:19},
+                                           {"Name":"Prince",age:19},
+                                           {"Name":"Prince",age:19})                         => this is use for create collection and insert multiple field.
+    
+
+
+                 READ OPARATION                                                                                       
+  
+10 -> db.collection_name.find()                                                              => this is use for read insert data and it is read multiple data.  
+
+11 -> db.collection_name.findOne()                                                           => give only 1 data of your collection.  
+                                                                                             
+12 -> db.collection_name.find().limit.(5)                                                    => give only 2 data of your collection.   
+                                                    
+13 -> db.create_collection_name.insertMany([{"Name":"Prince",age:19}, 
+                               -> ERORR =>  {Name stdudent:Prince,age:19},
+                                            {"Name":"Prince",age:19}],
+                                            {ordered:false})                   => In the Collection in 2(Seconde) line through Erorr but you add ""ordered:false"" at                                                                                     the Showing time your erorrable object skip and show third data.
+
+14 ->  db.collection_name.find({"Name":"Prince"})                              => this is find all document that start {"Name":"Prince"}
+                                                                                 
+15 ->  db.collection_name.findOne({"Name":"Prince"})                           => this is find only 1(One) document that start {"Name":"Prince"}                                                                                    
+
+          IMPORT JSON FILE
+
+16 -> 1 =>   mongoimport --db Database_Name  -- collection collection_name  --file "enter your json file path"  --jsonArray
+             EX.  
+             mongoimport --db shop --collection sales --file "D:\Full Stack Devloaping\Backend Devloaping\Mongodb\JSON FILES\sales.json" --jsonArray 
+
+                                => this command use for enter json file in the mongodb
+
+      2  => go to integrated terminal in VScode and enter this command 
+         =>  mongoimport --db Database_Name  -- collection collection_name  --file  json_file.json  --jsonArray
+                                                                                      
+  
+      "NOTICE" => You can not import 16mb or smaller json file in this 
+
+
+        COMPARISON OPERATORS
+
+17 -> 1 => $eq   (equal to)                                      Syntax => db.collection_name.find(`field_name` : {$eq : `values`})
+      2 => $ne   (not eqaul to)                                  Syntax => db.collection_name.find(`field_name` : {$ne : `values`})
+      3 => $gt   (greater than)                                  Syntax => db.collection_name.find(`field_name` : {$gt : `values`})
+      4 => $gte  (greater than and equal to)                     Syntax => db.collection_name.find(`field_name` : {$gte : `values`})
+      5 => $lt   (less than)                                     Syntax => db.collection_name.find(`field_name` : {$lt : `values`})
+      6 => $lte  (less than and eqaul to)                        Syntax => db.collection_name.find(`field_name` : {$lte : `values`})
+      7 => $in   (in)                                            Syntax => db.collection_name.find(`field_name` : {$in : `[value,value,values....]`})
+      8 => $nin  (not in)                                        Syntax => db.collection_name.find(`field_name` : {$nin : `[value,value,values....]`})
+
+
+       CURSOR  METHODES
+
+18 -> 1 => count()         syntax =>  db.collection_name.find(`field_name` : {$gte : `values`}).count()
+      2 => limit()         syntax =>  db.collection_name.find(`field_name` : {$gte : `values`}).limit(4)
+      3 => skip()          syntax =>  db.collection_name.find(`field_name` : {$gte : `values`}).skip(1)
+      3 => sort()          syntax =>  db.collection_name.find(`field_name` : {$gte : `values`}).sort({price:-1 OR 1})  "NOTICE" => 1 sign assigning order and -1 sign                                                                                                                                      designning order 
+
+       LOGICAL OPERATORS
+
+19 ->  1 => $and    syntax => db.collection_Name.find({$and:[{`field_name` : {$gte : `values`}},{`field_name` : {$eq : `values`}}]})
+       2 => $or     syntax => db.collection_Name.find({$or:[{`field_name`:{$lt:`value`}},{`field name`:{$eq:values}}]})
+       3 => $not    syntax => db.collection_Name.find({`field_name` :{$not : {$lt:`value`}})
+       4 => $nor    syntax => db.collection_Name.find({$or:[{`field_name`:{$lt:`value`}},{`field name`:{$eq:values}}]})
+
+
+       COMPLEX EXPRESSIONS
+
+20 -> 1 => $expr   syntax =>  {$expr : {operator : ['$filed', name]}}  OR
+                              {$expr : {$gt : [{$add:["$price",200]},"target_price"]}}
+
+
+       ELEMENTS OPERATORS
+
+21 -> 1 => $exists    syntax => {fieldName : {$exists :<boolean>}}                                  true or false
+      2 => $type      syntax => {filedName : {$type : <bson-data-type>}                             number,bool and string etc
+      3 => $size      syntax => {fieldName : {$size:<array-length>}}                                2, 5 , 8
+
+
+      PROJECTIONS
+
+
+22 -> 1 => syntax => {fieldName : {$size:<array-length>},{fieldName : number}}
+                     
+                     EX. db.sales.find({'comments' : {$size:2}},{comments:1})
+
+
+     $all VS $elemMATCH OPERATOR
+
+23 -> 1 => The $all operator select the documents where the value of field is array that contains all the specifid elements.
+           {`fieldName`:{$all:[val1,val2..]}}
+           EXAMPLE :- db.user.find({address.user :{$all:['vinod','ramesh']}})
+
+      2 => The $elemMatch opertor matches documents that contin in an array field with at least one elements that matches all the specified query critearia.
+           {`fieldName`:{$elemMatch:{query1,query2..}}}
+           EXAMPLE :- db.user.find({'address':{$elemMatch:{'user':'vinod','age':20}}})
+
+      
+      UPDATE OPERATIONS
+ 
+24 -> 1 => db.collection_name.updateOne(
+                                         {filter},
+                                         {$set:{'exitingField':'new_value','new_Field':'new_value'......}}
+                                       )
+
+          EXAMPLE :  db.product.updateOne(
+                                           {name:"Laptop"},
+                                           {$set:{price:3000}}
+                                         )
+
+   
+       2 => db.collection_name.updateMany(
+                                          {filter},
+                                          {$set:{'exitingField':'new_value',//......}}
+                                        )
+
+          EXAMPLE :  db.product.updateMany(
+                                            {stock:20},
+                                            {$set:{avilable:true}}
+                                          )
+          
+
+      REMOVING AND RENAMING FIELDS
+
+25 -> 1 => db.collection_name.updateOne(
+                                         {filter},
+                                         {$unset:{'Field':'value'}}
+                                       )         
+
+            EXAMPLE :  db.product.updateOne({name:"Laptop"},{$unset:{price:1}}) 
+
+
+
+      2 => db.collection_name.updateOne(
+                                         {filter},
+                                         {$rename:{'Old_Field':'New_field_Name'}}
+                                       )
+
+            EXAMPLE :  db.product.updateOne(
+                                             {stock:20},
+                                             {$rename:{price:cost}}
+                                          )
+
+
+
+       DELETE OPERATIONAS
+
+26 -> 1 => db.collection_name.deleteOne({filter});
+      EXAMPLE :- db.user.deleteOne({name:"Laptop"})
+    
+      2 => db.collection_name.deleteMany({filter});
+      EXAMPLE :- db.user.deleteMany({price:2000})
+
+
+    EXPLAIN IN MONGODB
+
+27 -> 1 => Use explain() method to understand query execution in detail. 
+      2 => syntax =>  db.collection_name.find(`field_name` : {$gte : `values`}).explain();
+      3 => syntax =>  db.collection_name.find(`field_name` : {$gte : `values`}).explain('executionStats'); => Use it measure the time to taken execute a query.
+
+
+
+         AGGREGATION IN MONGODB (most important)
+
+28 -> Defination : Aggregation is the process of performing tarnsformations on documents and combining them to produce computed results
+   -> Pipelines  : Aggregation consist of multiple pipeline stages each performing a specific operation on the input data.
+   
+   1 => $match         syntax => {$match:{<query>}}
+        EX.   
+            db.product.aggregate([
+                                    {$match : {stock:10}}
+                                ])
+
+   2 => $project       syntax => {$project:{<query,query>}}
+        EX.   
+            db.product.aggregate([
+                                    {$project : {price:1,stock:1}}
+                                ])
+
+   3 => $count         syntax => {$count:""}
+         EX.   
+            db.product.aggregate([
+                                    {$match : {stock:10}},
+                                    {$count:"count"}
+                                ])
+
+   4 => $limit         syntax => {$limit:number}
+         EX.   
+            db.product.aggregate([
+                                    {$match : {stock:10}},
+                                    {$limit:3}
+                                ])
+
+
+   5 => $skip         syntax => {$skip:number}
+         EX.   
+            db.product.aggregate([
+                                    {$match : {stock:10}},
+                                    {$skip:3}
+                                ])
+
+
+   6 => $sort        syntax => {$sort:{`field_Name`:number}} => only use 1 and -1
+         EX.   
+            db.product.aggregate([
+                                    {$match : {stock:10}},
+                                    {$sort:{price:1}}
+                                ])

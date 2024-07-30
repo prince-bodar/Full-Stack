@@ -1,0 +1,18 @@
+.h1{
+    background-image: linear-gradient(
+       rgb(39, 68, 110),
+       rgb(54, 91, 142),
+       rgb(101, 138, 191),
+       rgb(173, 200, 238),    
+    );
+    font-size: large;
+    border: 20px 10px 20px 10px;
+    font-size: 50px;
+    background-color:none;  
+    text-shadow: 0.3px 0.3px 2.5px black;
+    margin-left: 350px; margin-top: 20px; margin-bottom: 40px;  margin-right: 100px;
+}
+body{
+    background-color: #ccc;
+
+}

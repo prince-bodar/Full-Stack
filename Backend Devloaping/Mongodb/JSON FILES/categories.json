@@ -1,0 +1,55 @@
+[
+  { "id": 1, "name": "Electronics", "description": "Devices and gadgets" },
+  { "id": 2, "name": "Books", "description": "Printed and digital books" },
+  { "id": 3, "name": "Clothing", "description": "Apparel and accessories" },
+  {
+    "id": 4,
+    "name": "Home & Kitchen",
+    "description": "Household items and kitchenware"
+  },
+  { "id": 5, "name": "Toys", "description": "Kids and adult toys" },
+  { "id": 6, "name": "Sports", "description": "Sports equipment and apparel" },
+  { "id": 7, "name": "Beauty", "description": "Cosmetics and personal care" },
+  { "id": 8, "name": "Health", "description": "Health and wellness products" },
+  { "id": 9, "name": "Automotive", "description": "Car accessories and parts" },
+  { "id": 10, "name": "Jewelry", "description": "Rings, necklaces, and more" },
+  {
+    "id": 11,
+    "name": "Gardening",
+    "description": "Plants and gardening tools"
+  },
+  { "id": 12, "name": "Pet Supplies", "description": "Products for pets" },
+  {
+    "id": 13,
+    "name": "Music",
+    "description": "Musical instruments and accessories"
+  },
+  {
+    "id": 14,
+    "name": "Stationery",
+    "description": "Office and school supplies"
+  },
+  {
+    "id": 15,
+    "name": "Travel",
+    "description": "Luggage and travel accessories"
+  },
+  {
+    "id": 16,
+    "name": "Fitness",
+    "description": "Workout equipment and apparel"
+  },
+  { "id": 17, "name": "Art Supplies", "description": "Materials for artists" },
+  { "id": 18, "name": "Gifts", "description": "Gift items for all occasions" },
+  {
+    "id": 19,
+    "name": "Food & Beverage",
+    "description": "Groceries and gourmet foods"
+  },
+  { "id": 20, "name": "Computers", "description": "PCs and accessories" },
+  {
+    "id": 21,
+    "name": "Photography",
+    "description": "Cameras and photography gear"
+  }
+]

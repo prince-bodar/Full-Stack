@@ -1,0 +1,95 @@
+p{
+    font-family: 'Oswald';
+}
+
+/* FLEX DIRECTION IN ROW */
+.row{
+    gap: 20px;
+    font-size: 25px;
+   border: 8px solid black;
+   display: flex;
+   flex-direction: row;
+}
+
+/* FLEX DIRECTION IN ROW-REVERCE*/
+.row-reverse{
+    gap: 20px;
+    font-size: 25px;
+   border: 8px solid black;
+   display: flex;
+   flex-direction: row-reverse;
+}
+
+/* FLEX DIRECTION IN COLLUME*/
+.collume{
+    gap: 20px;
+    font-size: 25px;
+   border: 8px solid black;
+   display: flex;
+   flex-direction: column;
+}
+
+/* FLEX DIRECTION IN COLLUME-REVERCE*/
+.collume-reverse{
+    gap: 20px;
+    font-size: 25px;
+   border: 8px solid black;
+   display: flex;
+   flex-direction: column-reverse;
+}
+
+/* flex:grow shrink basis; */
+
+.maindiv{
+    font-family: 'Oswald';
+    height: 10vh;
+    width: 90vw;
+    border: 3px solid black;
+    font-size: 30px;
+    display: flex;
+}
+.maindiv div:nth-child(1){
+    color: #fff;
+    background-color: brown;
+    flex-grow: 1;
+}
+.maindiv div:nth-child(2){
+    color: #fff;
+    background-color: #ff0000e1;
+    flex-grow: 1;
+}
+.maindiv div:nth-child(3){
+    color: #fff;
+    background-color: #4400ff;
+    flex-grow: 1;
+}
+.maindiv div:nth-child(3){
+    color: #fff;
+    background-color: #1d8a74;
+    flex-grow: 1;
+
+}
+.maindiv div:nth-child(4){
+    color: #fff;
+    background-color: #2ba248;
+    flex-grow: 1;
+
+}
+.maindiv div:nth-child(5){
+    color: #fff;
+    background-color: #65360d;
+    flex-grow: 1;
+
+}
+.maindiv div:nth-child(6){
+    color: #fff;
+    background-color: #a3a52a;
+    flex-grow: 1;
+
+}
+.maindiv div:nth-child(7){
+    color: #fff;
+    background-color: #822aa5;
+    flex-grow: 1;
+
+}

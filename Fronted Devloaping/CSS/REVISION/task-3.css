@@ -1,0 +1,81 @@
+.maindiv{
+    background-color: #ccc;
+    color: white;
+    font-size: 15px;
+}
+.box1{
+    background-color: black;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top:0;
+  
+}
+.box2{
+    background-color: #6f0874;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    margin: auto;
+    top:0;
+    left: 0;
+    right: 0;
+}.box3{
+    background-color: #3ab12d;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    right: 0;
+}
+.box4{
+    background-color: #6f0874;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    margin: auto;
+    top:0;
+    bottom: 0;
+    left: 0;
+}
+.box5{
+    background-color: #331ab2;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    margin: auto;
+    inset: 0;
+}.box6{
+    background-color: #125f7b;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    margin: auto; 
+    top:0;
+    right:0;
+    bottom: 0; 
+}
+.box7{
+    background-color: brown;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    bottom: 0; 
+}
+.box8{
+    background-color: #6f0874;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    margin: auto;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.box9{
+     background-color: #cf1a1a;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    bottom: 0;
+    right: 0; 
+}

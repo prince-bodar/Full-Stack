@@ -1,0 +1,483 @@
+[
+    {
+        "id": "P001",
+        "name": "Laptop",
+        "description": "A high-performance laptop for professionals.",
+        "price": 999.99,
+        "target_price": 1099.99,
+        "category": "Electronics",
+        "stock": 25,
+        "manufacturer": {
+            "name": "TechBrand",
+            "warranty": "2 years"
+        }
+    },
+    {
+        "id": "P002",
+        "name": "Smartphone",
+        "description": "A latest-generation smartphone with a stunning display.",
+        "price": 699.99,
+        "target_price": 769.99,
+        "category": "Electronics",
+        "stock": 50,
+        "manufacturer": {
+            "name": "MobileMakers",
+            "warranty": "1 year"
+        }
+    },
+    {
+        "id": "P003",
+        "name": "Desk Chair",
+        "description": "An ergonomic desk chair with adjustable height.",
+        "price": 199.99,
+        "target_price": 219.99,
+        "category": "Furniture",
+        "stock": 15,
+        "manufacturer": {
+            "name": "ComfortSeating",
+            "warranty": "3 years"
+        }
+    },
+    {
+        "id": "P004",
+        "name": "Tablet",
+        "description": "A lightweight tablet with a crystal-clear display.",
+        "price": 299.99,
+        "target_price": 329.99,
+        "category": "Electronics",
+        "stock": 30,
+        "manufacturer": {
+            "name": "GadgetPro",
+            "warranty": "1 year"
+        }
+    },
+    {
+        "id": "P005",
+        "name": "Wireless Headphones",
+        "description": "Noise-cancelling wireless headphones with long battery life.",
+        "price": 149.99,
+        "target_price": 164.99,
+        "category": "Electronics",
+        "stock": 45,
+        "manufacturer": {
+            "name": "SoundMaster",
+            "warranty": "2 years"
+        }
+    },
+    {
+        "id": "P006",
+        "name": "Gaming Console",
+        "description": "Next-gen gaming console with 4K support.",
+        "price": 499.99,
+        "target_price": 549.99,
+        "category": "Electronics",
+        "stock": 20,
+        "manufacturer": {
+            "name": "GameTech",
+            "warranty": "1 year"
+        }
+    },
+    {
+        "id": "P007",
+        "name": "Smart Watch",
+        "description": "A smart watch with health monitoring features.",
+        "price": 199.99,
+        "target_price": 219.99,
+        "category": "Electronics",
+        "stock": 35,
+        "manufacturer": {
+            "name": "TimeTech",
+            "warranty": "2 years"
+        }
+    },
+    {
+        "id": "P008",
+        "name": "Electric Kettle",
+        "description": "A fast-boiling electric kettle with auto shut-off.",
+        "price": 49.99,
+        "target_price": 54.99,
+        "category": "Home Appliances",
+        "stock": 40,
+        "manufacturer": {
+            "name": "HomeEase",
+            "warranty": "1 year"
+        }
+    },
+    {
+        "id": "P009",
+        "name": "Vacuum Cleaner",
+        "description": "A powerful vacuum cleaner with HEPA filter.",
+        "price": 129.99,
+        "target_price": 142.99,
+        "category": "Home Appliances",
+        "stock": 25,
+        "manufacturer": {
+            "name": "CleanMaster",
+            "warranty": "3 years"
+        }
+    },
+    {
+        "id": "P010",
+        "name": "Air Purifier",
+        "description": "An air purifier with real-time air quality monitoring.",
+        "price": 249.99,
+        "target_price": 274.99,
+        "category": "Home Appliances",
+        "stock": 30,
+        "manufacturer": {
+            "name": "PureAir",
+            "warranty": "2 years"
+        }
+    },
+    {
+        "id": "P011",
+        "name": "Blender",
+        "description": "A high-speed blender with multiple settings.",
+        "price": 89.99,
+        "target_price": 98.99,
+        "category": "Home Appliances",
+        "stock": 50,
+        "manufacturer": {
+            "name": "BlendIt",
+            "warranty": "1 year"
+        }
+    },
+    {
+        "id": "P012",
+        "name": "Coffee Maker",
+        "description": "A programmable coffee maker with a built-in grinder.",
+        "price": 129.99,
+        "target_price": 142.99,
+        "category": "Home Appliances",
+        "stock": 25,
+        "manufacturer": {
+            "name": "CoffeeTime",
+            "warranty": "2 years"
+        }
+    },
+    {
+        "id": "P013",
+        "name": "Microwave Oven",
+        "description": "A microwave oven with convection and grill functions.",
+        "price": 199.99,
+        "target_price": 219.99,
+        "category": "Home Appliances",
+        "stock": 20,
+        "manufacturer": {
+            "name": "HeatWave",
+            "warranty": "3 years"
+        }
+    },
+    {
+        "id": "P014",
+        "name": "Refrigerator",
+        "description": "A double-door refrigerator with energy-saving mode.",
+        "price": 799.99,
+        "target_price": 879.99,
+        "category": "Home Appliances",
+        "stock": 10,
+        "manufacturer": {
+            "name": "CoolFridge",
+            "warranty": "5 years"
+        }
+    },
+    {
+        "id": "P015",
+        "name": "Washing Machine",
+        "description": "A front-load washing machine with smart controls.",
+        "price": 499.99,
+        "target_price": 549.99,
+        "category": "Home Appliances",
+        "stock": 15,
+        "manufacturer": {
+            "name": "WashPro",
+            "warranty": "3 years"
+        }
+    },
+    {
+        "id": "P016",
+        "name": "Dishwasher",
+        "description": "A quiet dishwasher with multiple cleaning cycles.",
+        "price": 599.99,
+        "target_price": 659.99,
+        "category": "Home Appliances",
+        "stock": 20,
+        "manufacturer": {
+            "name": "CleanDish",
+            "warranty": "3 years"
+        }
+    },
+    {
+        "id": "P017",
+        "name": "LED TV",
+        "description": "A 55-inch LED TV with 4K resolution.",
+        "price": 799.99,
+        "target_price": 879.99,
+        "category": "Electronics",
+        "stock": 25,
+        "manufacturer": {
+            "name": "VisionTech",
+            "warranty": "2 years"
+        }
+    },
+    {
+        "id": "P018",
+        "name": "Bluetooth Speaker",
+        "description": "A portable Bluetooth speaker with deep bass.",
+        "price": 59.99,
+        "target_price": 65.99,
+        "category": "Electronics",
+        "stock": 60,
+        "manufacturer": {
+            "name": "SoundWave",
+            "warranty": "1 year"
+        }
+    },
+    {
+        "id": "P019",
+        "name": "Smart Thermostat",
+        "description": "A smart thermostat with remote control via app.",
+        "price": 199.99,
+        "target_price": 219.99,
+        "category": "Home Automation",
+        "stock": 30,
+        "manufacturer": {
+            "name": "ClimateControl",
+            "warranty": "2 years"
+        }
+    },
+    {
+        "id": "P020",
+        "name": "Security Camera",
+        "description": "An outdoor security camera with night vision.",
+        "price": 129.99,
+        "target_price": 142.99,
+        "category": "Home Security",
+        "stock": 40,
+        "manufacturer": {
+            "name": "SecureHome",
+            "warranty": "1 year"
+        }
+    },
+    {
+        "id": "P021",
+        "name": "Electric Scooter",
+        "description": "A foldable electric scooter with long battery life.",
+        "price": 499.99,
+        "target_price": 549.99,
+        "category": "Transport",
+        "stock": 20,
+        "manufacturer": {
+            "name": "EcoRide",
+            "warranty": "2 years"
+        }
+    },
+    {
+        "id": "P022",
+        "name": "Fitness Tracker",
+        "description": "A fitness tracker with heart rate and sleep monitoring.",
+        "price": 99.99,
+        "target_price": 109.99,
+        "category": "Wearables",
+        "stock": 50,
+        "manufacturer": {
+            "name": "FitLife",
+            "warranty": "1 year"
+        }
+    },
+    {
+        "id": "P023",
+        "name": "Electric Toothbrush",
+        "description": "An electric toothbrush with multiple cleaning modes.",
+        "price": 79.99,
+        "target_price": 87.99,
+        "category": "Personal Care",
+        "stock": 40,
+        "manufacturer": {
+            "name": "CleanSmile",
+            "warranty": "2 years"
+        }
+    },
+    {
+        "id": "P024",
+        "name": "Hair Dryer",
+        "description": "A powerful hair dryer with multiple heat settings.",
+        "price": 49.99,
+        "target_price": 54.99,
+        "category": "Personal Care",
+        "stock": 35,
+        "manufacturer": {
+            "name": "StylePro",
+            "warranty": "1 year"
+        }
+    },
+    {
+        "id": "P025",
+        "name": "Toaster",
+        "description": "A 4-slice toaster with browning control.",
+        "price": 39.99,
+        "target_price": 43.99,
+        "category": "Home Appliances",
+        "stock": 45,
+        "manufacturer": {
+            "name": "ToastMaster",
+            "warranty": "1 year"
+        }
+    },
+    {
+        "id": "P026",
+        "name": "Slow Cooker",
+        "description": "A programmable slow cooker with multiple settings.",
+        "price": 59.99,
+        "target_price": 65.99,
+        "category": "Home Appliances",
+        "stock": 25,
+        "manufacturer": {
+            "name": "CookEase",
+            "warranty": "2 years"
+        }
+    },
+    {
+        "id": "P027",
+        "name": "Air Fryer",
+        "description": "A compact air fryer with rapid air circulation.",
+        "price": 89.99,
+        "target_price": 98.99,
+        "category": "Home Appliances",
+        "stock": 30,
+        "manufacturer": {
+            "name": "FryMaster",
+            "warranty": "1 year"
+        }
+    },
+    {
+        "id": "P028",
+        "name": "Rice Cooker",
+        "description": "An advanced rice cooker with keep-warm function.",
+        "price": 69.99,
+        "target_price": 76.99,
+        "category": "Home Appliances",
+        "stock": 40,
+        "manufacturer": {
+            "name": "RicePerfect",
+            "warranty": "2 years"
+        }
+    },
+    {
+        "id": "P029",
+        "name": "Water Filter",
+        "description": "A countertop water filter with a sleek design.",
+        "price": 79.99,
+        "target_price": 87.99,
+        "category": "Home Appliances",
+        "stock": 50,
+        "manufacturer": {
+            "name": "PureWater",
+            "warranty": "1 year"
+        }
+    },
+    {
+        "id": "P030",
+        "name": "Ceiling Fan",
+        "description": "An energy-efficient ceiling fan with remote control.",
+        "price": 129.99,
+        "target_price": 142.99,
+        "category": "Home Appliances",
+        "stock": 25,
+        "manufacturer": {
+            "name": "BreezeHome",
+            "warranty": "5 years"
+        }
+    },
+    {
+        "id": "P031",
+        "name": "Portable Air Conditioner",
+        "description": "A portable air conditioner with a dehumidifier.",
+        "price": 349.99,
+        "target_price": 384.99,
+        "category": "Home Appliances",
+        "stock": 20,
+        "manufacturer": {
+            "name": "CoolAir",
+            "warranty": "3 years"
+        }
+    },
+    {
+        "id": "P032",
+        "name": "Dehumidifier",
+        "description": "A compact dehumidifier with a large water tank.",
+        "price": 199.99,
+        "target_price": 219.99,
+        "category": "Home Appliances",
+        "stock": 25,
+        "manufacturer": {
+            "name": "DryHome",
+            "warranty": "2 years"
+        }
+    },
+    {
+        "id": "P033",
+        "name": "Humidifier",
+        "description": "An ultrasonic humidifier with adjustable mist levels.",
+        "price": 79.99,
+        "target_price": 87.99,
+        "category": "Home Appliances",
+        "stock": 30,
+        "manufacturer": {
+            "name": "MoistAir",
+            "warranty": "1 year"
+        }
+    },
+    {
+        "id": "P034",
+        "name": "Electric Blanket",
+        "description": "An electric blanket with multiple heat settings.",
+        "price": 59.99,
+        "target_price": 65.99,
+        "category": "Home Appliances",
+        "stock": 40,
+        "manufacturer": {
+            "name": "WarmCozy",
+            "warranty": "1 year"
+        }
+    },
+    {
+        "id": "P035",
+        "name": "Space Heater",
+        "description": "A portable space heater with adjustable thermostat.",
+        "price": 99.99,
+        "target_price": 109.99,
+        "category": "Home Appliances",
+        "stock": 35,
+        "manufacturer": {
+            "name": "HeatPro",
+            "warranty": "2 years"
+        }
+    },
+    {
+        "id": "P036",
+        "name": "Electric Grill",
+        "description": "A smokeless indoor electric grill with temperature control.",
+        "price": 129.99,
+        "target_price": 142.99,
+        "category": "Home Appliances",
+        "stock": 20,
+        "manufacturer": {
+            "name": "GrillMaster",
+            "warranty": "1 year"
+        }
+    },
+    {
+        "id": "P037",
+        "name": "Lawn Mower",
+        "description": "A battery-powered lawn mower with adjustable height.",
+        "price": 299.99,
+        "target_price": 329.99,
+        "category": "Garden Tools",
+        "stock": 15,
+        "manufacturer": {
+            "name": "GreenLawn",
+            "warranty": "3 years"
+        }
+    }
+]

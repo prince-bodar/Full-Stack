@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>form</title>
+</head>
+<body>
+       <h1>CREAT A FORM USING BY HTML</h1>
+
+       <form>
+          <fieldset>
+              
+              <legend>SIMPLE DETAILS</legend>
+
+
+       	  <label>USERNAME</label>
+       	  <input 
+       	  type="text"
+       	  for="USERNAME" 
+       	  name="USERNAME"
+            title="ENTER YOUR NAME"
+            placeholder="eneter your name" 
+            maxlength="30"
+            minlength="3"
+            autofocus >
+                    
+            <br><br>
+
+            <label>PASSWORD</label>
+            <input 
+            type="password" 
+            name="password"
+            title="password"
+            placeholder="eneter your id password" 
+            maxlength="10"
+            minlength="8">
+
+            <br><br>
+
+            <label>EMAIL</label>
+            <input 
+            type="email" 
+            name="email"
+            id="email"
+            title="enter your email id"
+            autocomplete="off"
+            required>
+    
+            <br><br>
+            
+            
+            <label>DATE OF BIRTH</label>
+            <input 
+            type="DATE" 
+            name="DATE OF BIRTH"
+            id="DATE OF BIRTH" 
+            title="eneter birthdate"
+            max="2006-01-01"
+            min="1990-12-31" >
+
+            <br><br>
+
+            <label>AGE</label> 
+            <input 
+            type="number"
+            name="age"
+            id="age" 
+            title="enter age"
+            min="17"
+            max="40"> 
+
+            <br><br>
+
+            <label>SELECT FILES</label>
+            <input 
+            type="file" 
+            name="select files"
+            id="select files"
+            max="5" 
+            >     
+
+            <br><br>
+
+            <label>MOBILE NO.</label>
+            <input
+             type="tel" 
+             name="MOBILE NO."
+             id="tel">
+
+             <br><br>
+             
+             <label for="Gender">Gender</label>
+             <input type="radio" name="Gender">male
+             <input type="radio" name="Gender">female
+
+             <br><br>
+
+            <label>HOBBIES</label>
+            <input 
+              list="HOBBIES" 
+              name="hobbies"
+              id="list"
+              >
+              <datalist id="HOBBIES">
+                   <option>Travelling</option>
+                   <option>Writting</option>
+                   <option>Reabding</option>
+              </datalist>
+
+             <br><br>
+
+
+             <label>YOUR FAV COLOR</label>
+             <input 
+             type="color" 
+             name="color"
+             id="your fav color">
+             
+             <br><br>
+
+            <lable>CAR</lable>
+            <select id="CAR" name="car" >
+                 <option value="FORTUNER">FORTUNER</option>
+                 <option value="VOLVO">VOLVO</option>
+                 <option value="THAR">THAR</option>
+                 <option value="TATA">TATA</option>
+            </select>
+            
+            <br><br>
+
+            <label>SAY ABOUT WEBPAGE</label>
+            <textarea id="SAY ABOUT WEBPAGE" rows="4" cols="15" ></textarea>
+
+            <br><br>
+
+            <label>clickeble</label>
+            <button onclick="alert('how are guys')">click me </button>
+
+            <br><br>
+            <input type="submit" value="submit">
+
+
+
+       </form>
+</body>
+</html>

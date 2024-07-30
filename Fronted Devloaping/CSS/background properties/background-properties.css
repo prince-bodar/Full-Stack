@@ -1,0 +1,29 @@
+body{
+    /* background-color: black; */
+    height: 100%;
+    width: 100vh;
+    background-image: url("../images/0002.jpg"),url("../images/0003.jpg");
+    /* background-image: url("../images/0002.jpg"); */
+    background-size: 50% ;
+    background-repeat:no-repeat;
+    background-position:top right;
+    /* background-blend-mode:color-dodge; */
+    /* background-position: bottom left; */
+}
+/* css Gradient
+
+ <div class="linear-gradient-1"></div>
+
+<div class="diagonal-linear-gradient"></div>
+
+<div class="linear-gradient-rainbow"></div>
+
+<div class="radial-gradient-simple"></div>
+
+<div class="radial-gradient"></div>
+
+<div class="bullseye"></div>
+
+<div class="warning"></div>
+
+<div class="conic"></div>  */

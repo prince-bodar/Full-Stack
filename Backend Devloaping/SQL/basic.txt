@@ -1,0 +1,15 @@
+1  -> \sql                                                                                    => entring in sql command
+2  -> \ connect root@localhost:3306                                                           => connect with port
+3  -> show databases;                                                                         => this command use is show all databases 
+4  -> create database nameOfDatabase;                                                         => create database in sql
+5  -> use nameOfDatabase;                                                                     => using this command you enter in your choosable database 
+6  -> drop database                                                                           => this command use for deleting your database
+7  -> create table user(firstname varchar(30) ,lastname(30),age int);                         => this command use for creating table 
+8  -> show tables;                                                                            => this command use for showing all table in our database
+9  -> desc user; OR describe user;                                                            => this command use for user table showing
+10 ->                                                                                         =>
+11 ->                                                                                         =>
+12 ->                                                                                         =>
+13 ->                                                                                         =>
+14->                                                                                          =>
+15 ->                                                                                         =>

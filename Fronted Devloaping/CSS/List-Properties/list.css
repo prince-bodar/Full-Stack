@@ -1,0 +1,9 @@
+body{
+    background-image: linear-gradient(to right bottom, #fff,#434141);
+}
+.main{
+    border: 10px grrove #c51818;
+    border-radius: 20%;
+    place-items: center;
+    display: grid;
+}

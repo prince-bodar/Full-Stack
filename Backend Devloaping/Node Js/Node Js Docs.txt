@@ -1,0 +1,24 @@
+1 -> website
+2 -> internet
+3 -> static and daynamic ip
+4 -> client and server  
+5 -> peer 
+6 -> protocol
+7 -> port
+
+
+
+1 =>  What is Node.js?
+     =>  Node.js is an open source server environment
+         Node.js is free
+         Node.js runs on various platforms (Windows, Linux, Unix, Mac OS X, etc.)
+         Node.js uses JavaScript on the server
+
+   (*Defination*)
+         Node.js is an open-source, server-side JavaScript runtime environment built on Chrome's V8 JavaScript engine. It allows developers to run JavaScript code outside of a web browser, enabling them to build scalable and efficient network applications.Node incorporates the V8 JavaScript engine, the same one used in Google Chrome and other browsers.
+It is written in C++ and can run on macOS, Linux, Windows and other systems. The engine parses and executes JavaScript code. It can operate independently of a browser environment, either embedded in a C++ application or implemented as a standalone program. The V8 engine compiles JavaScript internally, using just-in-time (JIT) processes to speed up execution.
+
+Node.js written by :=>  Ryan Dahl
+Initial Release Date:=> 27 may 2009
+Licence:=> MIT licence
+Operating System:=> Microsoft Windows, Linux, SmartOS, MacOS, freeBSD,OpenBSD, IBM AIX

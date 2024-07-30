@@ -1,0 +1,14 @@
+.main{
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+}
+p{
+    background-color: white;
+    padding: 10px;
+}
+button{
+    padding: 15px;
+    margin: 0px 10px 0px;
+}

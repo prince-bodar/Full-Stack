@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>nested</title>
+    <style>
+         table,th,td{
+            border: 2px;
+            border-collapse: separate;
+            border-style: groove;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th rowspan="2" colspan="2">CI</th>
+                <th rowspan="2">All Gender</th>
+                <th>By Gender</th>
+            </tr>
+            <tr>
+               <th>
+                   <table style="border:groove black";>
+                          <tr>
+                              <th>MALE</th>
+                              <th>FEMALE</th>
+                          </tr>
+                          <tr>
+                            <td>37283723</td>
+                            <td>77635363</td>
+                          </tr>
+                   </table>
+               </th>
+            </tr>
+            <tr>
+                <td>Rural</td>
+                <td>9913263</td>
+                <td>7835572</td>
+                <td>6094572</td>
+            </tr>
+        </thead>
+    </table>
+</body>
+</html>

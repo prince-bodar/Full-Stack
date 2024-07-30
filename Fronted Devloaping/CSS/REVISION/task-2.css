@@ -1,0 +1,14 @@
+a:first-child {
+    background-color: yellow;
+    color: red;
+    text-decoration: none;
+}
+a:nth-last-of-type(2){
+    background-color: yellow;
+    color: red;
+    text-decoration: none;
+}
+body:first-child  {
+    background-color: yellow;
+    color: red; 
+}
