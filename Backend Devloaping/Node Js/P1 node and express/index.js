@@ -4,25 +4,39 @@ const app = express()
 const port = 6060
 
 // HTML Render
-// app.get("/user",(req,res) => {
+// app.get("/users",(req,res) => {
 //     const html = `
 //          <ol>
-//                ${users.map( user => `<li>${user.first_name}</li>`).join("")}
+//                ${users.map( user => `<li> ${user.first_name} </li>`).join("")}
 //          </ol>
 //     `
 //     res.send(html)
 // })
 
+// app.get("/users",(req,res) => {
+//   const html = `
+//        <ul>
+//              ${users.map( user => `<li>
+//                ${user.first_name} 
+//                    <ul>
+//                       <li>User id is ${user.id}</li>
+//                    </ul>
+//               </li>`).join("")}
+//        </ul>
+//   `
+//   res.send(html)
+// })
+
+
 // app.get("/",(req,res) => {
 //    res.end("This Home page")
 //  })
 
-// //Routes
+
 // app.get("/api/users/:id" , (req,res) => {
 //     const id = Number(req.params.id)
 //     const user = users.find(user => user.id == id)
 //     return res.json(user)
-
 //  })
 
 // app.get("/api/users" , (req,res) => {

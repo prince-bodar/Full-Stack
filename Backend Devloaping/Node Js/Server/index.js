@@ -38,45 +38,44 @@ const os = require("os");
 //   });
 // });
 
-const server = http.createServer((req, res) => {
-  if (req.url === "/favicon.ico") return res.end();
+// const server = http.createServer((req, res) => {
+//   if (req.url === "/favicon.ico") return res.end();
 
-  const log = `${Date.now()}: ${req.url} : new req recive\n`;
-  const myurl = url.parse(req.url, true);
-  console.log(myurl);
+//   const log = `${Date.now()}: ${req.url} : new req recive\n`;
+//   const myurl = url.parse(req.url, true);
+//   console.log(myurl);
 
-  fs.appendFile("log.text", log, (err, data) => {
+//   fs.appendFile("log.text", log, (err, data) => {
 
-    switch (myurl.pathname) {
-      case "/":
-        res.end("<h1>Hello this is home page</h1>");
-        break;
+//     switch (myurl.pathname) {
+//       case "/":
+//         res.end("<h1>Hello this is home page</h1>");
+//         break;
 
-      case "/about":
-        const username = myurl.query.myname;
-        const usr_id = myurl.query.userid;
-        res.end(`<h1>Your name is  ${username} and Your user id is ${usr_id}</h1>`);
-        break;
+//       case "/about":
+//         const username = myurl.query.myname;
+//         const usr_id = myurl.query.userid;
+//         res.end(`<h1>Your name is  ${username} and Your user id is ${usr_id}</h1>`);
+//         break;
 
-      case "/search":
-        const search = myurl.query.search_query;
-        res.end("<p>Here your result search for </p>" + search);
-        break
-      default:res.end("<h1>404 Your page is not Found</h1>");
-    }
-  });
-});
+//       case "/search":
+//         const search = myurl.query.search_query;
+//         res.end("<p>Here your result search for </p>" + search);
+//         break
+//       default:res.end("<h1>404 Your page is not Found</h1>");
+//     }
+//   });
+// });
 
 //  const server = http.createServer((req,res) => {
-//       // console.log(req);
-//       if(req.url == "/favicon.ico") return res.end()
-//       const recive = `${Date.now()} : ${req.url}: your req recive successfuly \n`
-//       fs.appendFile("./devfile.txt",recive,(err,result)=> {
-//         if(err)
-//           console.log(err);
-//         else
-//           console.log(result);
-//       })
+//       if(req.myurl == "/favicon.ico") res.end()
+//       const myurl = url.parse(req.url,true)
+//       // console.log(myurl);
+      
+//       const name = myurl.query.name
+//       const id = myurl.query.id
+//       console.log(`my name is ${name} and my id is ${id}`);
+      
 //      return  res.end("your server is started!")
 //  })
 
