@@ -1,22 +1,22 @@
 const http = require('http')
 
 const server1 = http.createServer((req,res) =>{
-    res.setHeader("dummy","dummy-value")
     res.end("hello welcome for my own server")
 } )
 
 
 const server2 = http.createServer((req,res) =>{
-    res.setHeader("dummy","dummy-value")
     res.end("hello welcome for my own server 2")
 } )
 
 
 const server3 = http.createServer((req,res) =>{
-    res.setHeader("dummy","dummy-value")
-    res.setHeader("react","file")
     res.end("<h1>hello welcome for my own server 3</h1>")
 } )
+
+
+
+// server starting code 
 
 server1.listen("1010",()=>{
     console.log("server is started on http://localhost:1010")
