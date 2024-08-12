@@ -30,9 +30,9 @@
 
 /* String length method */
 {
-    let str = "This is code is undefined code code."
-    let lengthstr = str.length
+    // let str = "This is code is undefined code code."
+    // let lengthstr = str.length
    
-     console.log(lengthstr);
+    //  console.log(lengthstr);
 
 }
